@@ -1,4 +1,4 @@
-<h1 align="center">Odin Raylib Template for Nix<h1>
+<h1 align="center">Odin Raylib Template for Nix</h1>
 
 Easily setup your Odin raylib projects using Nix flake.
 
