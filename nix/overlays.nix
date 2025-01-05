@@ -7,7 +7,7 @@
 
   deps = final: prev: {
     # TODO: Wait for https://github.com/odin-lang/Odin/pull/4619 to be merged
-    odin = inputs.mypkgs.packages.${final.system}.odin-git.overrideAttrs {
+    odin = prev.odin.overrideAttrs {
       patches = [
         ./odin.patch
       ];

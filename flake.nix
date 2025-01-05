@@ -3,11 +3,9 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    # Pull Odin compiler from mypkgs
-    mypkgs.url = "github:spitulax/mypkgs";
   };
 
-  outputs = { self, nixpkgs, mypkgs, ... }@inputs:
+  outputs = { self, nixpkgs, ... }@inputs:
     let
       inherit (nixpkgs) lib;
 
